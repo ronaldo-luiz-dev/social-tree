@@ -1,0 +1,78 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-weight: 300;
+    /* width: 90rem; */
+}
+
+body{
+   background-color:  var(--body-bg-color) ;
+}
+
+div{
+    width: 20.38rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+ margin-top: 12.56rem ;
+}
+
+.logo img{
+    /* overflow: hidden; */
+    /* width:12.5rem;
+    height:12.5rem; */
+    width: calc(12.5rem + 12px);
+    height: calc(12.5rem + 12px);
+    object-fit: cover;
+    border-radius: 100px;
+    border: 4px solid var(--body-bg-color) ;
+    outline: 2px solid  var( --purple) ;
+}
+.logo p{
+    font-weight: 300;
+    line-height: 1.5rem;
+    text-align: center;
+    margin-top: 1.37rem;
+    color: var(--purple);
+}
+.links {
+   margin-top: 2.06rem;
+   
+}
+.links li{
+    border: 2px solid var(--purple);
+    list-style: none;
+    height: 3.07rem;
+    padding: 0.63rem;
+    color:  var(--purple);
+    border-radius: 4px;
+    font-weight: 600;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+/* uma unidade(1n) a partir do 2°elemento (+2) */
+.links li:nth-child(1n+2){
+    margin-top:1.25rem;
+}
+
+.social_medias{
+    margin-top: 4.25rem;
+    display: flex;
+    width: 14.75rem;
+    justify-items: center;
+}
+
+.social_medias div{
+    width: 1.5rem;
+    height: 1.5rem;
+}
